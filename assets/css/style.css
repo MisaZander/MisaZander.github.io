@@ -85,6 +85,10 @@ section img {
 
 /* contact */
 
+.red {
+    color: red;
+}
+
 form {
     background-color: #ffffff;
     padding: 10px;
@@ -133,6 +137,10 @@ div.container.fopplebottom {
     height: 5px;
     width: 100%;
     background-color: #4aaaa5;
+}
+
+.footer a {
+    line-height: 20px;
 }
 
 /* Bootstrap Override */

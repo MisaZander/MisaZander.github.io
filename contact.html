@@ -44,21 +44,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 whiteout">
+                    <p class="red">Form has no functionality yet and is currently disabled.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 whiteout">
                     <form>
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" class="form-control" placeholder="Name" disabled>
                         </div>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email" disabled>
                             <small id="emailHelp" class="form-text text-muted">Your email is for replying purposes only and will never be shared with anyone.</small>
                         </div>
                         <div class="form-group">
                             <label for="comment">Message</label>
-                            <textarea class="form-control" rows="5" id="comment" placeholder="Enter message..."></textarea>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Enter message..." disabled></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary disabled" disabled>Submit</button>
                     </form>
                 </div> 
             </div>
@@ -68,7 +73,7 @@
         <footer class="footer">
             <div class="teal"></div>
             <div class="container text-center">
-                    <p>&copy; Copyright 2018</p>
+                <a href="https://github.com/MisaZander">GitHub Profile</a> &deg; <a href="https://www.linkedin.com/in/alexander-osborn-17568b12a/">Linkedin Profile</a>
             </div>            
         </footer>
     </body>
